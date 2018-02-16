@@ -1,10 +1,10 @@
 <?php
 class Atol {
     public $api_version = 'v3';
-    public $login = 'логин';
-    public $pass = 'пароль';
-    public $group_code = 'группа';
-    public $inn = 'инн';
+    public $login = 'targai-com';
+    public $pass = 'bQwU0bbaF';
+    public $group_code = 'targai-com_5173';
+    public $inn = '132202072109';
     public $token = '';
     function Send($url, $params=Array()) {
         $ch = curl_init();
